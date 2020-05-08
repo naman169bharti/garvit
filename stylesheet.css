@@ -1,0 +1,53 @@
+body{
+    line-height: 1.5;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.previous{
+    position: fixed;
+    bottom:120px;
+    left:60px;
+}
+
+.next{
+    position: fixed;
+    bottom: 120px;
+    left:175px;
+}
+
+a{
+    border: 1px solid black ;
+    background-color:blue;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+a:hover{
+    background-color: rgb(235, 31, 31);
+    /* color: black; */
+}
+
+u{
+    color: royalblue;
+}
+button{
+    background-color: royalblue;
+    padding: 10px;
+    color: whitesmoke;
+}
+.last{
+    position: fixed;
+    bottom: 60px;
+    right: 145px;
+    padding: 4px 8px;
+    background-color: orangered;
+}
+.love{
+    background-color: crimson;
+    color: white;
+}
+.love:hover{
+    background-color: red;
+}
